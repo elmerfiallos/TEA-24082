@@ -1,0 +1,3 @@
+# Tendecias e Innovacion en Tecnologia Agricoa(TEA)
+nombre = input ("Cual es tu nombre ?") 
+print(nombre)
