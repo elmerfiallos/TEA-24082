@@ -1,9 +1,7 @@
 try:
-    entrada =input ("Ingrese el nombre del archivo")
-    archivo = open (entrada , "r", encoding ="UTF-8")
+    entrada = input("Ingrese nombre del archivo: ")
+    archivo = open(entrada)
     for linea in archivo:
-        print (linea.superior)
+        print(linea.upper()) 
 except:
-    print("Error. arhivo no existe")
-#print (archivo.read())
-
+    print("Error, no existe el archivo")
